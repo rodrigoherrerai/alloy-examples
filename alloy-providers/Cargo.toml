@@ -1,0 +1,12 @@
+[package]
+name = "alloy-providers"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.36.0", features = ["full"] }
+
+alloy-providers = { git = "https://github.com/alloy-rs/alloy" }
+alloy-node-bindings = { git = "https://github.com/alloy-rs/alloy" }
